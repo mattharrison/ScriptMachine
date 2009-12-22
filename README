@@ -1,0 +1,30 @@
+ScriptMachine
+=============
+
+A tool for composing scripts/commands and python functions into a
+state machine.
+
+Here's the impetus:  I've got a bunch of scripts/functions to do
+deployments, updates and weekly batch jobs.  I want something where I
+can easily insert commands into the graph.  I want it to be flexible
+to easily insert a pre/post command into a sequence.  I also want to
+be able to execute arbitrary subgraphs of the graph (pass in start/end
+nodes).
+
+License
+=======
+
+MIT
+
+Author
+======
+
+Matt Harrison (matthewharrison at gmail)
+
+TODO
+====
+
+  * Logging 
+  * Command line interface
+  * Subgraph execution
+  * ???

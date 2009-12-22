@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+# Copyright (c) 2009 Matt Harrison
+
+import sys
+
+import scriptmachinelib
+
+if __name__ == '__main__':
+    try:
+        sys.exit(scriptmachinelib.main(sys.argv))
+    except Exception, e:
+        sys.stderr.write('%s\n'%str(e))
+        sys.exit(1)  
+
