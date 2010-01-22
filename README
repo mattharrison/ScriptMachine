@@ -27,4 +27,5 @@ TODO
   * Logging 
   * Command line interface
   * Subgraph execution
+  * Ability to spawn a process (script/function) before/after a node
   * ???
